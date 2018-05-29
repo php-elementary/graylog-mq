@@ -1,0 +1,31 @@
+{
+    "name":         "elementary/graylog-stomp",
+    "description":  "The wrapper to send log-message to a Graylog server using the Stomp transport",
+    "license":      "MIT",
+    "authors": [
+        {
+            "name":  "Artiom Vendelev",
+            "email": "artiom@vendelev.ru",
+            "role":  "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "elementary\\logger\\graylog\\stomp\\": "src\\"
+        }
+    },
+    "require": {
+        "php": ">=5.6",
+        "elementary/logger-trait": "^1.0",
+        "elementary/pinba": "^1.0",
+        "elementary/gelf-php": "dev-stomp",
+        "psr/log": "^1.0"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5",
+        "satooshi/php-coveralls": "^2.0"
+    }
+}
