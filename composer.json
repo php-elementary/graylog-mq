@@ -18,7 +18,7 @@
         "php": ">=5.6",
         "elementary/logger-trait": "^1.0",
         "elementary/pinba": "^1.0",
-        "elementary/gelf-php": "dev-stomp",
+        "elementary/gelf-php": "^1.5.5.1",
         "psr/log": "^1.0"
     },
     "config": {
