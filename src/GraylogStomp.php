@@ -75,7 +75,7 @@ class GraylogStomp extends AbstractLogger implements LoggerGetInterface, LoggerA
      *
      * @return TransportInterface
      */
-    public function getGelfStompTransport(\Stomp $stomp, string $queue)
+    public function getGelfStompTransport(\Stomp $stomp, $queue)
     {
         return new StompTransport($stomp, $queue);
     }
